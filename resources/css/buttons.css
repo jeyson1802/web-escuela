@@ -1,0 +1,29 @@
+
+.btn {
+    @apply px-4;
+    @apply py-2;
+    @apply mt-2;
+    @apply mt-4;
+    @apply font-bold;
+    @apply rounded;
+    }
+  .btn-block{
+    @apply block;
+    @apply w-full;
+    @apply text-center;
+  } 
+
+.btn-blue {
+    @apply text-white;
+    @apply bg-blue-500;
+}
+.btn-blue:hover {
+    @apply bg-blue-700;
+}  
+.btn-red {
+    @apply text-white;
+    @apply bg-red-500;
+}
+.btn-red:hover {
+    @apply bg-red-700;
+}

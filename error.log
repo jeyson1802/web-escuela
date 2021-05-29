@@ -1,0 +1,5 @@
+[Sat May 29 16:52:07.462648 2021] [proxy_http:error] [pid 27272:tid 1876] (20014)Internal error (specific information not available): [client 127.0.0.1:52717] AH01102: error reading status line from remote server 127.0.0.1:8080
+[Sat May 29 16:52:07.463185 2021] [proxy:error] [pid 27272:tid 1876] [client 127.0.0.1:52717] AH00898: Error reading from remote server returned by /
+[Sat May 29 16:52:07.479909 2021] [proxy_http:error] [pid 27272:tid 1876] (20014)Internal error (specific information not available): [client 127.0.0.1:52717] AH01102: error reading status line from remote server 127.0.0.1:8080, referer: http://cursoslaravel.com/
+[Sat May 29 16:52:07.481515 2021] [proxy_http:error] [pid 27272:tid 1872] (20014)Internal error (specific information not available): [client 127.0.0.1:63895] AH01102: error reading status line from remote server 127.0.0.1:8080, referer: http://cursoslaravel.com/
+[Sat May 29 16:52:07.482046 2021] [proxy:error] [pid 27272:tid 1872] [client 127.0.0.1:63895] AH00898: Error reading from remote server returned by /favicon.ico, referer: http://cursoslaravel.com/

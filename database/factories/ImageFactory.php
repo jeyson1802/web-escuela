@@ -1,0 +1,31 @@
+<?php
+
+namespace Database\Factories;
+
+use App\Models\Image;
+use Illuminate\Database\Eloquent\Factories\Factory;
+
+class ImageFactory extends Factory
+{
+    /**
+     * The name of the factory's corresponding model.
+     *
+     * @var string
+     */
+    protected $model = Image::class;
+
+    /**
+     * Define the model's default state.
+     *
+     * @return array
+     */
+    public function definition()
+    {
+        $filePath = storage_path('app/public/courses');
+        return [
+            'url'=>sprintf("courses/%s", $this->faker->image($filePath, 640, 400, null, false)),
+            'imageable_id'=>null,
+            'imageable_type'=>null
+        ];
+    }
+}

@@ -1,0 +1,51 @@
+    .container{
+        @apply  px-4;
+        @apply  max-w-7xl;
+        @apply  mx-auto;
+    }
+
+    .card{
+        @apply overflow-hidden;
+        @apply bg-white;
+        @apply rounded;
+        @apply shadow-lg;
+    }
+    .card-body{
+        @apply px-6;
+        @apply py-4;
+    }
+
+    .card-title{
+        @apply mb-2;
+        @apply text-xl;
+        @apply leading-6;
+        @apply text-gray-700;
+    }
+
+    .embed-responsive{
+        position: relative;
+        overflow: hidden;
+        padding-top: 56.25%;
+    }
+    
+    .embed-responsive iframe{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 0;
+    }
+
+    @media(min-width:640px){
+    .container{
+        @apply  px-6;
+    }
+    }
+
+
+    @media(min-width:1024px){
+    .container{
+        @apply  px-8;
+    }
+    }
